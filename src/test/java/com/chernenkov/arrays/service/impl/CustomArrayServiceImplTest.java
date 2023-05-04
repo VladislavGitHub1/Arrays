@@ -2,13 +2,15 @@ package com.chernenkov.arrays.service.impl;
 
 import com.chernenkov.arrays.entity.CustomArray;
 import org.junit.Before;
+import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
+
 
 class CustomArrayServiceImplTest {
     private final int[] testArray = new int[]{0, 5, 3, -4, 10};
 
-@org.junit.jupiter.api.Test
+    @Test
     void findMinValue() {
         CustomArrayServiceImpl service = new CustomArrayServiceImpl();
         int expected = -4;
@@ -24,7 +26,7 @@ class CustomArrayServiceImplTest {
         assertEquals(expected,result);
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void calculateSum() {
         CustomArrayServiceImpl service = new CustomArrayServiceImpl();
         float expected = 14;
@@ -32,7 +34,7 @@ class CustomArrayServiceImplTest {
         assertEquals(expected,result, 3);
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void calculateAverageValue() {
         CustomArrayServiceImpl service = new CustomArrayServiceImpl();
         float expected = 2.8f;
@@ -40,7 +42,7 @@ class CustomArrayServiceImplTest {
         assertEquals(expected,result,3);
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void countPositiveValues() {
         CustomArrayServiceImpl service = new CustomArrayServiceImpl();
         int expected = 3;
@@ -48,7 +50,7 @@ class CustomArrayServiceImplTest {
         assertEquals(expected,result);
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void countNegativeValues() {
         CustomArrayServiceImpl service = new CustomArrayServiceImpl();
         int expected = 1;
@@ -56,7 +58,7 @@ class CustomArrayServiceImplTest {
         assertEquals(expected,result);
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void countZeroValues() {
         CustomArrayServiceImpl service = new CustomArrayServiceImpl();
         int expected = 1;

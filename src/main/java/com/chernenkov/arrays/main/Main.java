@@ -7,8 +7,9 @@ import org.apache.logging.log4j.Logger;
 
 public class Main {
     static Logger logger = LogManager.getLogger();
+
     public static void main(String[] args) {
-        CustomArray array1 = new CustomArray(new int[]{1,2,3}, 4);
+        CustomArray array1 = new CustomArray(4, new int[]{1, 2, 3});
         logger.info(array1);
     }
 }

@@ -25,21 +25,20 @@ public class CustomArrayServiceImpl implements CustomArrayService {
 
     @Override
     public float calculateSum(int[] arr) {
-        float summ = 0;
+        float sum = 0;
         for (int i = 0; i < arr.length; i++) {
-            summ += arr[i];
+            sum += arr[i];
         }
-        return summ;
+        return sum;
     }
 
     @Override
     public float calculateAverageValue(int[] arr) {
-        float summ = 0;
+        float sum = 0;
         for (int i = 0; i < arr.length; i++) {
-            summ += arr[i];
+            sum += arr[i];
         }
-        float average = summ / arr.length;
-        return average;
+        return sum / arr.length;
     }
 
     @Override
