@@ -8,11 +8,10 @@ import java.util.Objects;
 public class CustomArray {
     private int arrayId;
     private int[] array;
-    IdGenerator idGenearator = new IdGenerator();
-
-    public CustomArray(int[] array) {
+    IdGenerator idGenerator = new IdGenerator();
+    public CustomArray(int[] array, int arrayId) {
         this.array = array;
-        this.arrayId = idGenearator.generateId();
+        this.arrayId = arrayId;
     }
 
     public CustomArray() {
