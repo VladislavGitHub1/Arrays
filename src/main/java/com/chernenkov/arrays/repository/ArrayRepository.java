@@ -1,0 +1,21 @@
+package com.chernenkov.arrays.repository;
+
+import com.chernenkov.arrays.entity.CustomArray;
+
+import java.util.List;
+
+public class ArrayRepository {
+    private List<CustomArray> customArrayRepository;
+
+    public ArrayRepository(List<CustomArray> customArrayRepository) {
+        this.customArrayRepository = customArrayRepository;
+    }
+
+    public boolean addToRepository(List<CustomArray> customArrays){
+        boolean a = false;
+        for (CustomArray customArray : customArrays){
+            customArrayRepository.add(customArray);
+        }
+        return a;
+    }
+}

@@ -1,20 +1,23 @@
 package com.chernenkov.arrays.entity;
 
+import com.chernenkov.arrays.util.IdGenerator;
+
 import java.util.Arrays;
 import java.util.Objects;
 
 public class CustomArray {
     private int arrayId;
     private int[] array;
+    IdGenerator idGenearator = new IdGenerator();
 
+    public CustomArray(int[] array) {
+        this.array = array;
+        this.arrayId = idGenearator.generateId();
+    }
 
     public CustomArray() {
     }
 
-    public CustomArray(int arrayID, int[] array) {
-        this.array = array;
-        this.arrayId = arrayID;
-    }
 
     public int[] getArray() {
         return array;
