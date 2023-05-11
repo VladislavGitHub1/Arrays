@@ -1,14 +1,11 @@
 package com.chernenkov.arrays.entity;
 
-import com.chernenkov.arrays.util.IdGenerator;
-
 import java.util.Arrays;
 import java.util.Objects;
 
 public class CustomArray {
     private int arrayId;
     private int[] array;
-    IdGenerator idGenerator = new IdGenerator();
     public CustomArray(int[] array, int arrayId) {
         this.array = array;
         this.arrayId = arrayId;

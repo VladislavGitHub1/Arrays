@@ -1,11 +1,9 @@
 package com.chernenkov.arrays.creator;
 
 import com.chernenkov.arrays.entity.CustomArray;
-import com.chernenkov.arrays.repository.ArrayRepository;
-import com.chernenkov.arrays.util.IdGenerator;
+import com.chernenkov.arrays.util.IDGenerator;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class CustomArrayCreator {
@@ -16,10 +14,9 @@ public class CustomArrayCreator {
         return customArray;
     }
     public static List<CustomArray> createCustomArray(List<int[]> arrayStringList){
-        IdGenerator idGenerator = new IdGenerator();
         List<CustomArray> customArrays = new ArrayList<>();
         for (int[] array : arrayStringList){
-                CustomArray customArray = new CustomArray(array,idGenerator.generateId());
+                CustomArray customArray = new CustomArray(array, IDGenerator.generateID());
                 customArrays.add(customArray);
         }
         return customArrays;

@@ -128,3 +128,4 @@
 2023-05-07 21:37:32,739 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
 2023-05-07 21:37:40,703 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
 2023-05-07 21:38:59,954 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-10 18:50:35,625 INFO c.c.a.m.Main [main] [CustomArray{arrayId=1, array=[1, 5, 12, 456, 44, 554]}, CustomArray{arrayId=2, array=[45, 8, 78, 56, 95, 4]}, CustomArray{arrayId=3, array=[44, 78, 12, 65, 898, 45, 214]}]
