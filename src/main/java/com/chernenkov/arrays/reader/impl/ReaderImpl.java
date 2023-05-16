@@ -2,6 +2,8 @@ package com.chernenkov.arrays.reader.impl;
 
 import com.chernenkov.arrays.exception.CustomArrayException;
 import com.chernenkov.arrays.validator.impl.StringArrayValidatorImpl;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.io.*;
 import java.nio.file.Files;
@@ -11,6 +13,7 @@ import java.util.List;
 public class ReaderImpl{
     private static final String DEFAULT_FILENAME = "data\\deafultArrays.txt";
     private static final String SPACE_DELIMITER = "\\s+";
+    static Logger logger = LogManager.getLogger();
 
     public List<int[]> readArray(String fileName) throws CustomArrayException {
         int[] result = new int[0];

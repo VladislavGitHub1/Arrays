@@ -1,4 +1,4 @@
-package com.chernenkov.arrays.creator.impl;
+package com.chernenkov.arrays.creator;
 
 import com.chernenkov.arrays.entity.CustomArray;
 import com.chernenkov.arrays.util.IdGenerator;
@@ -6,7 +6,7 @@ import com.chernenkov.arrays.util.IdGenerator;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CustomArrayCreatorImpl {
+public class CustomArrayFactory {
 
 
     public static CustomArray createCustomArray(int[] array, int arrayId){

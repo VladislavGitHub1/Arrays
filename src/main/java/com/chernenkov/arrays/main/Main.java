@@ -1,6 +1,6 @@
 package com.chernenkov.arrays.main;
 
-import com.chernenkov.arrays.creator.impl.CustomArrayCreatorImpl;
+import com.chernenkov.arrays.creator.CustomArrayFactory;
 import com.chernenkov.arrays.entity.CustomArray;
 import com.chernenkov.arrays.entity.Warehouse;
 import com.chernenkov.arrays.exception.CustomArrayException;
@@ -15,7 +15,7 @@ public class Main {
     public static void main(String[] args) throws CustomArrayException {
         ReaderImpl reader = new ReaderImpl();
         List<CustomArray> firstArrays = new ArrayList<>();
-        firstArrays = CustomArrayCreatorImpl.createCustomArray(reader.readArray("arrays.txt"));
+        firstArrays = CustomArrayFactory.createCustomArray(reader.readArray("arrays.txt"));
         logger.info (firstArrays.toString());
         Warehouse test = Warehouse.getInstance();
         System.out.println(test.getWarehouseMap());
