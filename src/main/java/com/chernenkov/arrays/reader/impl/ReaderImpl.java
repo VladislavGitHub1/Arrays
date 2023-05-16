@@ -10,6 +10,7 @@ import java.util.List;
 
 public class ReaderImpl{
     private static final String DEFAULT_FILENAME = "data\\deafultArrays.txt";
+    private static final String SPACE_DELIMITER = "\\s+";
 
     public List<int[]> readArray() throws CustomArrayException {
         int[] result = new int[0];
@@ -27,7 +28,7 @@ public class ReaderImpl{
             StringArrayValidatorImpl validator = new StringArrayValidatorImpl();
             while ((line = br.readLine())!= null){
                 if (validator.stringArrayValidate(line)){
-                    String[] str = line.split("\\s+");
+                    String[] str = line.split(SPACE_DELIMITER);
                     result = new int[str.length];
                     for (int i=0; i<str.length; i++){
                         result[i] = Integer.parseInt(str[i]);
