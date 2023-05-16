@@ -1,4 +1,4 @@
-package com.chernenkov.arrays.Observer;
+package com.chernenkov.arrays.observer;
 
 import com.chernenkov.arrays.entity.CustomArray;
 

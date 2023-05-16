@@ -1,7 +1,6 @@
 package com.chernenkov.arrays.entity;
 
-import com.chernenkov.arrays.Observer.Observer;
-import com.chernenkov.arrays.Observer.impl.ObserverImpl;
+import com.chernenkov.arrays.observer.impl.ObserverImpl;
 
 import java.util.Arrays;
 import java.util.Objects;

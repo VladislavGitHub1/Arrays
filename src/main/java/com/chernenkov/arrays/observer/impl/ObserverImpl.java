@@ -1,6 +1,6 @@
-package com.chernenkov.arrays.Observer.impl;
+package com.chernenkov.arrays.observer.impl;
 
-import com.chernenkov.arrays.Observer.Observer;
+import com.chernenkov.arrays.observer.Observer;
 import com.chernenkov.arrays.entity.ArrayStatistics;
 import com.chernenkov.arrays.entity.CustomArray;
 import com.chernenkov.arrays.entity.Warehouse;
