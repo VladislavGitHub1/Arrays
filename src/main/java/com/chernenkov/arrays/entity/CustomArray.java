@@ -1,14 +1,20 @@
 package com.chernenkov.arrays.entity;
 
+import com.chernenkov.arrays.Observer.Observer;
+import com.chernenkov.arrays.Observer.impl.ObserverImpl;
+
 import java.util.Arrays;
 import java.util.Objects;
 
 public class CustomArray {
     private int arrayId;
     private int[] array;
+    private ObserverImpl observer;
     public CustomArray(int[] array, int arrayId) {
         this.array = array;
         this.arrayId = arrayId;
+        observer = new ObserverImpl();
+        notifyObserver();
     }
 
     public CustomArray() {
@@ -21,6 +27,7 @@ public class CustomArray {
 
     public void setArray(int[] array) {
         this.array = array;
+        notifyObserver();
     }
 
     public int getArrayId() {
@@ -29,6 +36,13 @@ public class CustomArray {
 
     public void setArrayId(int arrayId) {
         this.arrayId = arrayId;
+        notifyObserver();
+    }
+
+    public void notifyObserver(){
+        if (observer != null){
+            observer.handleEvent(this);
+        }
     }
 
 

@@ -1,8 +1,9 @@
 package com.chernenkov.arrays.main;
 
-import com.chernenkov.arrays.creator.CustomArrayCreator;
+import com.chernenkov.arrays.creator.impl.CustomArrayCreatorImpl;
 import com.chernenkov.arrays.entity.CustomArray;
-import com.chernenkov.arrays.exceprion.CustomException;
+import com.chernenkov.arrays.entity.Warehouse;
+import com.chernenkov.arrays.exception.CustomArrayException;
 import com.chernenkov.arrays.reader.impl.ReaderImpl;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -11,10 +12,15 @@ import java.util.List;
 
 public class Main {
     static Logger logger = LogManager.getLogger();
-    public static void main(String[] args) throws CustomException {
+    public static void main(String[] args) throws CustomArrayException {
         ReaderImpl reader = new ReaderImpl();
         List<CustomArray> firstArrays = new ArrayList<>();
-        firstArrays = CustomArrayCreator.createCustomArray(reader.readArray());
+        firstArrays = CustomArrayCreatorImpl.createCustomArray(reader.readArray());
         logger.info (firstArrays.toString());
+        Warehouse test = Warehouse.getInstance();
+        System.out.println(test.getWarehouseMap());
+        int[] arr = new int[]{-2,0,1};
+        firstArrays.get(1).setArray(arr);
+        System.out.println(test.getWarehouseMap());
     }
 }
