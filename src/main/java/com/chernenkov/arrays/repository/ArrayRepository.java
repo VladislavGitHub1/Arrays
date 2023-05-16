@@ -18,4 +18,10 @@ public class ArrayRepository {
         }
         return a;
     }
+    public boolean addToRepository(CustomArray customArray){
+        boolean a = false;
+        customArrayRepository.add(customArray);
+        return a;
+    }
+    
 }
