@@ -1,0 +1,148 @@
+2023-05-04 15:52:09,119 INFO c.c.a.m.Main [main] CustomArray{array=[1, 2, 3], arrayID=4}
+2023-05-04 23:10:23,362 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-06 22:23:27,579 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-06 22:25:20,424 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-06 22:27:33,269 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-06 22:28:05,826 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-06 22:28:26,452 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-06 22:29:52,027 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-06 22:32:19,305 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-06 22:33:00,667 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-06 22:33:17,479 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-06 22:34:57,905 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-06 22:36:41,360 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-06 22:39:16,219 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-06 22:43:50,845 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-06 22:44:45,693 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-06 22:45:33,419 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-06 22:45:56,518 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-06 22:47:30,031 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-06 22:48:10,702 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-06 22:49:37,225 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-06 22:51:04,823 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 00:45:51,123 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 00:46:54,161 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 00:47:16,221 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 00:48:01,909 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 00:50:14,565 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 00:50:37,989 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 00:52:08,898 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 01:02:42,745 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 01:03:45,103 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 01:04:00,252 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 01:10:47,173 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 01:11:24,994 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 01:13:51,841 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 01:14:11,978 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 01:14:20,584 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 01:15:10,744 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 01:16:37,078 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 01:18:29,232 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 01:20:48,832 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 01:21:16,748 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 01:21:50,172 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 01:22:17,025 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 01:22:33,572 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 01:23:41,729 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 01:23:58,006 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 01:24:08,985 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 01:25:35,631 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 01:25:47,334 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 01:29:00,591 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 01:29:12,170 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 01:30:28,496 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 01:37:00,687 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 01:37:10,620 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 01:37:20,884 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 01:37:42,179 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 01:38:52,165 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 01:39:09,110 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 01:44:26,904 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 01:44:36,811 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 01:45:41,750 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 01:47:05,064 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 01:48:04,795 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 01:48:17,742 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 01:48:35,277 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 01:49:20,641 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 01:51:31,246 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 01:52:50,686 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 01:53:10,977 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 02:00:19,720 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 02:02:33,048 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 02:02:58,164 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 02:06:02,445 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 02:07:32,890 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 02:07:57,252 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 02:09:55,253 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 02:10:07,131 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 02:10:32,637 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 02:11:15,659 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 02:15:59,795 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 13:02:46,984 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 13:03:31,367 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 13:04:31,435 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 13:15:38,441 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 13:16:07,292 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 13:17:53,272 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 13:18:36,712 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 13:24:39,417 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 13:24:40,606 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 13:24:52,536 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 13:25:48,678 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 13:26:13,821 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 13:27:17,158 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 13:28:50,863 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 13:29:29,980 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 13:30:12,717 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 13:31:12,251 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 13:31:16,826 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 20:17:11,663 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 20:19:26,309 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 20:20:45,276 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 20:49:20,853 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 20:50:09,173 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 20:51:20,974 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 20:52:15,973 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 20:53:19,123 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 20:54:00,043 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 20:55:17,470 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 21:01:25,611 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 21:04:25,752 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 21:06:31,490 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 21:10:17,273 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 21:12:42,418 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 21:14:23,742 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 21:15:06,994 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 21:15:32,948 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 21:25:54,916 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 21:26:31,959 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 21:27:17,346 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 21:27:56,908 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 21:28:11,973 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 21:30:49,871 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 21:31:13,698 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 21:33:02,913 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 21:33:44,940 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 21:37:12,350 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 21:37:32,739 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 21:37:40,703 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-07 21:38:59,954 INFO c.c.a.m.Main [main] CustomArray{arrayId=4, array=[1, 2, 3]}
+2023-05-10 18:50:35,625 INFO c.c.a.m.Main [main] [CustomArray{arrayId=1, array=[1, 5, 12, 456, 44, 554]}, CustomArray{arrayId=2, array=[45, 8, 78, 56, 95, 4]}, CustomArray{arrayId=3, array=[44, 78, 12, 65, 898, 45, 214]}]
+2023-05-14 21:21:37,930 INFO c.c.a.m.Main [main] [CustomArray{arrayId=1, array=[1, 5, 12, 456, 44, 554]}, CustomArray{arrayId=2, array=[45, 8, 78, 56, 95, 4]}, CustomArray{arrayId=3, array=[44, 78, 12, 65, 898, 45, 214]}]
+2023-05-14 21:23:45,944 INFO c.c.a.m.Main [main] [CustomArray{arrayId=1, array=[1, 5, 12, 456, 44, 554]}, CustomArray{arrayId=2, array=[45, 8, 78, 56, 95, 4]}, CustomArray{arrayId=3, array=[44, 78, 12, 65, 898, 45, 214]}]
+2023-05-14 21:24:08,582 INFO c.c.a.m.Main [main] [CustomArray{arrayId=1, array=[1, 5, 12, 456, 44, 554]}, CustomArray{arrayId=2, array=[45, 8, 78, 56, 95, 4]}, CustomArray{arrayId=3, array=[44, 78, 12, 65, 898, 45, 214]}]
+2023-05-14 21:31:31,831 INFO c.c.a.m.Main [main] [CustomArray{arrayId=1, array=[1, 5, 12, 456, 44, 554]}, CustomArray{arrayId=2, array=[45, 8, 78, 56, 95, 4]}, CustomArray{arrayId=3, array=[44, 78, 12, 65, 898, 45, 214]}]
+2023-05-14 21:35:18,445 INFO c.c.a.m.Main [main] [CustomArray{arrayId=1, array=[1, 5, 12, 456, 44, 554]}, CustomArray{arrayId=2, array=[45, 8, 78, 56, 95, 4]}, CustomArray{arrayId=3, array=[44, 78, 12, 65, 898, 45, 214]}]
+2023-05-14 21:35:28,232 INFO c.c.a.m.Main [main] []
+2023-05-14 21:36:00,408 INFO c.c.a.m.Main [main] []
+2023-05-14 21:36:10,114 INFO c.c.a.m.Main [main] [CustomArray{arrayId=1, array=[1, 5, 12, 456, 44, 554]}, CustomArray{arrayId=2, array=[45, 8, 78, 56, 95, 4]}, CustomArray{arrayId=3, array=[44, 78, 12, 65, 898, 45, 214]}]
+2023-05-14 21:38:25,023 INFO c.c.a.m.Main [main] [CustomArray{arrayId=1, array=[1, 5, 12, 456, 44, 554]}, CustomArray{arrayId=2, array=[45, 8, 78, 56, 95, 4]}, CustomArray{arrayId=3, array=[44, 78, 12, 65, 898, 45, 214]}]
+2023-05-14 21:40:00,408 INFO c.c.a.m.Main [main] [CustomArray{arrayId=1, array=[1, 5, 12, 456, 44, 554]}, CustomArray{arrayId=2, array=[45, 8, 78, 56, 95, 4]}, CustomArray{arrayId=3, array=[44, 78, 12, 65, 898, 45, 214]}]
+2023-05-14 21:40:31,215 INFO c.c.a.m.Main [main] [CustomArray{arrayId=1, array=[1, 5, 12, 456, 44, 554]}, CustomArray{arrayId=2, array=[45, 8, 78, 56, 95, 4]}, CustomArray{arrayId=3, array=[44, 78, 12, 65, 898, 45, 214]}]
+2023-05-14 21:44:52,396 INFO c.c.a.m.Main [main] [CustomArray{arrayId=1, array=[1, 5, 12, 456, 44, 554]}, CustomArray{arrayId=2, array=[45, 8, 78, 56, 95, 4]}, CustomArray{arrayId=3, array=[44, 78, 12, 65, 898, 45, 214]}]
+2023-05-16 18:29:25,025 INFO c.c.a.m.Main [main] [CustomArray{arrayId=1, array=[1, 5, 12, 456, 44, 554]}, CustomArray{arrayId=2, array=[45, 8, 78, 56, 95, 4]}, CustomArray{arrayId=3, array=[44, 78, 12, 65, 898, 45, 214]}]
+2023-05-16 18:29:53,749 INFO c.c.a.m.Main [main] []
+2023-05-16 18:30:22,815 INFO c.c.a.m.Main [main] [CustomArray{arrayId=1, array=[1, 5, 12, 456, 44, 554]}, CustomArray{arrayId=2, array=[45, 8, 78, 56, 95, 4]}, CustomArray{arrayId=3, array=[44, 78, 12, 65, 898, 45, 214]}]
+2023-05-16 18:30:59,350 INFO c.c.a.m.Main [main] [CustomArray{arrayId=1, array=[1, 5, 12, 456, 44, 554]}, CustomArray{arrayId=2, array=[45, 8, 78, 56, 95, 4]}, CustomArray{arrayId=3, array=[44, 78, 12, 65, 898, 45, 214]}]
+2023-05-16 18:40:52,467 INFO c.c.a.m.Main [main] [CustomArray{arrayId=1, array=[1, 5, 12, 456, 44, 554]}, CustomArray{arrayId=2, array=[45, 8, 78, 56, 95, 4]}, CustomArray{arrayId=3, array=[44, 78, 12, 65, 898, 45, 214]}]

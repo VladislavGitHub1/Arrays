@@ -12,14 +12,14 @@ public class ReaderImpl{
     private static final String DEFAULT_FILENAME = "data\\deafultArrays.txt";
     private static final String SPACE_DELIMITER = "\\s+";
 
-    public List<int[]> readArray() throws CustomArrayException {
+    public List<int[]> readArray(String fileName) throws CustomArrayException {
         int[] result = new int[0];
         BufferedReader br = null;
         File file = null;
         File directory = new File("./data");
-        file = new File(directory,"arrays.txt");
+        file = new File(directory,fileName);
         if (!file.exists()){
-            System.out.println("File is not exists");
+            System.out.println("File " + fileName + " is not exists");
             file = new File(DEFAULT_FILENAME);
         }
         List<int[]> arraysIntList = new ArrayList<>();
