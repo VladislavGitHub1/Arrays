@@ -62,9 +62,11 @@ public class CustomArray {
 
     @Override
     public String toString() {
-        return "CustomArray{" +
-                "arrayId=" + arrayId +
-                ", array=" + Arrays.toString(array) +
-                '}';
+        final StringBuilder sb = new StringBuilder("CustomArray{");
+        sb.append("arrayId=").append(arrayId);
+        sb.append(", array=").append(Arrays.toString(array));
+        sb.append(", observer=").append(observer);
+        sb.append('}');
+        return sb.toString();
     }
 }
