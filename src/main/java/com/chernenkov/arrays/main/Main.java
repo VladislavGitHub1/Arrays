@@ -18,9 +18,9 @@ public class Main {
         firstArrays = CustomArrayFactory.createCustomArray(reader.readArray("arrays.txt"));
         logger.info (firstArrays.toString());
         Warehouse test = Warehouse.getInstance();
-        System.out.println(test.getWarehouseMap());
+        logger.info(test.getWarehouseMap());
         int[] arr = new int[]{-2,0,1};
         firstArrays.get(1).setArray(arr);
-        System.out.println(test.getWarehouseMap());
+        logger.info(test.getWarehouseMap());
     }
 }
