@@ -1,6 +1,7 @@
 package com.chernenkov.arrays.reader.impl;
 
 import com.chernenkov.arrays.exception.CustomArrayException;
+import com.chernenkov.arrays.reader.ArrayReader;
 import com.chernenkov.arrays.validator.impl.StringArrayValidatorImpl;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -11,7 +12,7 @@ import java.util.List;
 
 import static com.chernenkov.arrays.reader.ArrayReader.*;
 
-public class ArrayReaderImpl {
+public class ArrayReaderImpl implements ArrayReader {
     static Logger logger = LogManager.getLogger();
 
     public List<int[]> readArray(String fileName) throws CustomArrayException {
