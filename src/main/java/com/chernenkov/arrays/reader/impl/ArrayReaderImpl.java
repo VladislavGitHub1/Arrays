@@ -9,10 +9,9 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
+import static com.chernenkov.arrays.reader.ArrayReader.*;
+
 public class ArrayReaderImpl {
-    private static final String DEFAULT_FILENAME = "data\\deafultArrays.txt";
-    private static final String DEFAULT_DIRECTORY = "./data";
-    private static final String SPACE_DELIMITER = "\\s+";
     static Logger logger = LogManager.getLogger();
 
     public List<int[]> readArray(String fileName) throws CustomArrayException {
