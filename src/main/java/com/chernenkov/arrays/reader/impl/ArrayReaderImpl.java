@@ -6,27 +6,26 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.io.*;
-import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ReaderImpl{
+public class ArrayReaderImpl {
     private static final String DEFAULT_FILENAME = "data\\deafultArrays.txt";
+    private static final String DEFAULT_DIRECTORY = "./data";
     private static final String SPACE_DELIMITER = "\\s+";
     static Logger logger = LogManager.getLogger();
 
     public List<int[]> readArray(String fileName) throws CustomArrayException {
         int[] result = new int[0];
-        BufferedReader br = null;
         File file = null;
-        File directory = new File("./data");
+        File directory = new File(DEFAULT_DIRECTORY);
         file = new File(directory,fileName);
         if (!file.exists()){
-            System.out.println("File " + fileName + " is not exists");
+            logger.info("File " + fileName + " is not exists");
             file = new File(DEFAULT_FILENAME);
         }
         List<int[]> arraysIntList = new ArrayList<>();
-        try {br = new BufferedReader(new FileReader(file));
+        try(BufferedReader br = new BufferedReader(new FileReader(file))) {;
             String line;
             StringArrayValidatorImpl validator = new StringArrayValidatorImpl();
             while ((line = br.readLine())!= null){
@@ -39,7 +38,6 @@ public class ReaderImpl{
                     arraysIntList.add(result);
                 }
             }
-            br.close();
         } catch (IOException e) {
             throw new CustomArrayException(e);
         }

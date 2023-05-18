@@ -2,6 +2,6 @@ package com.chernenkov.arrays.reader;
 
 import java.util.List;
 
-public interface Reader {
+public interface ArrayReader {
     List<int[]> readArray();
 }

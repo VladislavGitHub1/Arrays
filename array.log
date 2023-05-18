@@ -154,3 +154,4 @@
 2023-05-16 19:28:45,216 INFO c.c.a.m.Main [main] [CustomArray{arrayId=1, array=[1, 5, 12, 456, 44, 554]}, CustomArray{arrayId=2, array=[45, 8, 78, 56, 95, 4]}, CustomArray{arrayId=3, array=[44, 78, 12, 65, 898, 45, 214]}]
 2023-05-16 19:29:38,448 INFO c.c.a.m.Main [main] [CustomArray{arrayId=1, array=[1, 5, 12, 456, 44, 554]}, CustomArray{arrayId=2, array=[45, 8, 78, 56, 95, 4]}, CustomArray{arrayId=3, array=[44, 78, 12, 65, 898, 45, 214]}]
 2023-05-16 19:32:14,252 INFO c.c.a.m.Main [main] [CustomArray{arrayId=1, array=[1, 5, 12, 456, 44, 554]}, CustomArray{arrayId=2, array=[45, 8, 78, 56, 95, 4]}, CustomArray{arrayId=3, array=[44, 78, 12, 65, 898, 45, 214]}]
+2023-05-16 20:40:27,999 INFO c.c.a.m.Main [main] [CustomArray{arrayId=1, array=[1, 5, 12, 456, 44, 554]}, CustomArray{arrayId=2, array=[45, 8, 78, 56, 95, 4]}, CustomArray{arrayId=3, array=[44, 78, 12, 65, 898, 45, 214]}]

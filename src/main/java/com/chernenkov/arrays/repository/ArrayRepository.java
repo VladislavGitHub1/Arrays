@@ -23,5 +23,5 @@ public class ArrayRepository {
         customArrayRepository.add(customArray);
         return a;
     }
-    
+
 }

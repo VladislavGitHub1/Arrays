@@ -1,6 +1,6 @@
 package com.chernenkov.arrays.entity;
 
-import com.chernenkov.arrays.observer.impl.ObserverImpl;
+import com.chernenkov.arrays.observer.impl.ArrayObserverImpl;
 
 import java.util.Arrays;
 import java.util.Objects;
@@ -8,11 +8,11 @@ import java.util.Objects;
 public class CustomArray {
     private int arrayId;
     private int[] array;
-    private ObserverImpl observer;
+    private ArrayObserverImpl observer;
     public CustomArray(int[] array, int arrayId) {
         this.array = array;
         this.arrayId = arrayId;
-        observer = new ObserverImpl();
+        observer = new ArrayObserverImpl();
         notifyObserver();
     }
 

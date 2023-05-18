@@ -4,7 +4,7 @@ import com.chernenkov.arrays.creator.CustomArrayFactory;
 import com.chernenkov.arrays.entity.CustomArray;
 import com.chernenkov.arrays.entity.Warehouse;
 import com.chernenkov.arrays.exception.CustomArrayException;
-import com.chernenkov.arrays.reader.impl.ReaderImpl;
+import com.chernenkov.arrays.reader.impl.ArrayReaderImpl;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import java.util.ArrayList;
@@ -13,7 +13,7 @@ import java.util.List;
 public class Main {
     static Logger logger = LogManager.getLogger();
     public static void main(String[] args) throws CustomArrayException {
-        ReaderImpl reader = new ReaderImpl();
+        ArrayReaderImpl reader = new ArrayReaderImpl();
         List<CustomArray> firstArrays = new ArrayList<>();
         firstArrays = CustomArrayFactory.createCustomArray(reader.readArray("arrays.txt"));
         logger.info (firstArrays.toString());

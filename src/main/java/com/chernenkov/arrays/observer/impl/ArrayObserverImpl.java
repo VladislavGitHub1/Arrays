@@ -1,11 +1,11 @@
 package com.chernenkov.arrays.observer.impl;
 
-import com.chernenkov.arrays.observer.Observer;
+import com.chernenkov.arrays.observer.ArrayObserver;
 import com.chernenkov.arrays.entity.ArrayStatistics;
 import com.chernenkov.arrays.entity.CustomArray;
 import com.chernenkov.arrays.entity.Warehouse;
 
-public class ObserverImpl implements Observer {
+public class ArrayObserverImpl implements ArrayObserver {
     @Override
     public void handleEvent(CustomArray array) {
         ArrayStatistics statistics = new ArrayStatistics(array);
