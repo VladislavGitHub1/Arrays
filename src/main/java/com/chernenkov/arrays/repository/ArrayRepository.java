@@ -4,7 +4,7 @@ import com.chernenkov.arrays.entity.CustomArray;
 
 import java.util.List;
 
-public class ArrayRepository {
+public class ArrayRepository{
     private List<CustomArray> customArrayRepository;
 
     public ArrayRepository(List<CustomArray> customArrayRepository) {
@@ -24,4 +24,7 @@ public class ArrayRepository {
         return a;
     }
 
+    public List<CustomArray> queryStream(Specification specification) {
+        return customArrayRepository.stream().filter(array -> specification.specify(array)).toList();
+    }
 }
