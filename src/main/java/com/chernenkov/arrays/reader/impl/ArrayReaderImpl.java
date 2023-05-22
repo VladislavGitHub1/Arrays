@@ -21,7 +21,7 @@ public class ArrayReaderImpl implements ArrayReader {
         File directory = new File(DEFAULT_DIRECTORY);
         file = new File(directory,fileName);
         if (!file.exists()){
-            logger.info("File " + fileName + " is not exists");
+            logger.warn("File " + fileName + " is not exists");
             file = new File(DEFAULT_FILENAME);
         }
         List<int[]> arraysIntList = new ArrayList<>();
