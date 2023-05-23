@@ -2,6 +2,7 @@ package com.chernenkov.arrays.repository;
 
 import com.chernenkov.arrays.entity.CustomArray;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class ArrayRepository{
@@ -24,7 +25,13 @@ public class ArrayRepository{
         return a;
     }
 
-    public List<CustomArray> queryStream(Specification specification) {
-        return customArrayRepository.stream().filter(array -> specification.specify(array)).toList();
+    public List<CustomArray> query(Specification specification){
+        List<CustomArray> results = new ArrayList<>();
+        for (CustomArray array: customArrayRepository){
+            if(specification.specify(array)){
+                results.add(array);
+            }
+        }
+        return results;
     }
 }

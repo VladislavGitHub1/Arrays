@@ -15,6 +15,7 @@ import static com.chernenkov.arrays.reader.ArrayReader.*;
 public class ArrayReaderImpl implements ArrayReader {
     static Logger logger = LogManager.getLogger();
 
+    @Override
     public List<int[]> readArray(String fileName) throws CustomArrayException {
         int[] result = new int[0];
         File file = null;

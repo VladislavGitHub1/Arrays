@@ -9,7 +9,7 @@ public class CustomArray {
     private int arrayId;
     private int[] array;
     private ArrayObserverImpl observer;
-    public CustomArray(int[] array, int arrayId) {
+    public CustomArray(int arrayId, int[] array) {
         this.array = array;
         this.arrayId = arrayId;
         observer = new ArrayObserverImpl();
@@ -65,7 +65,6 @@ public class CustomArray {
         final StringBuilder sb = new StringBuilder("CustomArray{");
         sb.append("arrayId=").append(arrayId);
         sb.append(", array=").append(Arrays.toString(array));
-        sb.append(", observer=").append(observer);
         sb.append('}');
         return sb.toString();
     }

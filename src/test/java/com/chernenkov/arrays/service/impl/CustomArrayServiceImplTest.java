@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class CustomArrayServiceImplTest {
     private final int[] testArr = new int[]{0, 5, 3, -4, 10};
-    private final CustomArray testArray = new CustomArray(testArr, 2);
+    private final CustomArray testArray = new CustomArray(2, testArr);
 
     @Test
     void findMinValue() {
