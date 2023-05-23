@@ -5,15 +5,15 @@ import com.chernenkov.arrays.repository.Specification;
 import com.chernenkov.arrays.service.impl.CustomArrayServiceImpl;
 
 public class SpecifyArrayByAverage implements Specification {
-    private int averageArrayValue;
+    private float averageArrayValue;
     CustomArrayServiceImpl service = new CustomArrayServiceImpl();
-    public SpecifyArrayByAverage(int averageArrayValue) {
+    public SpecifyArrayByAverage(float averageArrayValue) {
         this.averageArrayValue = averageArrayValue;
     }
 
     @Override
     public boolean specify(CustomArray customArray) {
-        float averageCalculated = (int)service.calculateAverageValue(customArray);
+        float averageCalculated = service.calculateAverageValue(customArray);
         return averageCalculated == averageArrayValue;
     }
 }
