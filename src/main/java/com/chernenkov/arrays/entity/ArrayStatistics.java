@@ -84,15 +84,16 @@ public class ArrayStatistics {
 
     @Override
     public String toString() {
-        return "ArrayStatistics{" +
-                "min=" + min +
-                ", max=" + max +
-                ", sum=" + sum +
-                ", averageValue=" + averageValue +
-                ", negativeValues=" + negativeValues +
-                ", positiveValues=" + positiveValues +
-                ", zeroValues=" + zeroValues +
-                '}';
+        final StringBuilder sb = new StringBuilder("ArrayStatistics{");
+        sb.append("min=").append(min);
+        sb.append(", max=").append(max);
+        sb.append(", sum=").append(sum);
+        sb.append(", averageValue=").append(averageValue);
+        sb.append(", negativeValues=").append(negativeValues);
+        sb.append(", positiveValues=").append(positiveValues);
+        sb.append(", zeroValues=").append(zeroValues);
+        sb.append('}');
+        return sb.toString();
     }
 
     @Override

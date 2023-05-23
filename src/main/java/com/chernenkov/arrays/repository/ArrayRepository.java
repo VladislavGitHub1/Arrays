@@ -20,9 +20,9 @@ public class ArrayRepository{
         return a;
     }
     public boolean addToRepository(CustomArray customArray){
-        boolean a = false;
+        boolean wasAdded = false;
         customArrayRepository.add(customArray);
-        return a;
+        return wasAdded;
     }
 
     public List<CustomArray> query(Specification specification){

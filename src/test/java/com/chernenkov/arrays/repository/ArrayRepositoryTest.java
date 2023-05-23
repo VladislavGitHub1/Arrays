@@ -15,54 +15,43 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 
 class ArrayRepositoryTest {
-    CustomArray customArray = new CustomArray(1, new int[]{10, 20, 30});
-    CustomArray customArray2 = new CustomArray(2, new int[]{20, 30, 40});
+    CustomArray customArray;
+    CustomArray customArray2;
 
     List<CustomArray> customArrays;
-    List<CustomArray> results = new ArrayList<>();
+    List<CustomArray> results;
+    ArrayRepository arrayRepository;
 
     @BeforeEach
     void setUp() {
+        customArray = new CustomArray(1, new int[]{10, 20, 30});
+        customArray2 = new CustomArray(2, new int[]{20, 30, 40});
         customArrays = new ArrayList<>();
         customArrays.add(customArray);
         customArrays.add(customArray2);
+        arrayRepository = new ArrayRepository(customArrays);
+        results = new ArrayList<>();
     }
 
     @Test
     void queryIfSpecifyById() {
         SpecifyArrayById specifyArrayById = new SpecifyArrayById(1);
-        if (specifyArrayById.specify(customArray)) {
-            results.add(customArray);
-        }
-        ;
-        if (specifyArrayById.specify(customArray2)) {
-            results.add(customArray2);
-        }
-        ;
+        List<CustomArray> results = arrayRepository.query(specifyArrayById);
         int expectedSize = 1;
         assertEquals(expectedSize, results.size());
         for (CustomArray array : results) {
-            assertArrayEquals(array.getArray(), customArray.getArray());
+            assertArrayEquals(customArray.getArray(), array.getArray());
         }
     }
 
     @Test
     void queryIfSpecifyByAverage() {
         SpecifyArrayByAverage specifyArrayByAverage = new SpecifyArrayByAverage(30);
-        for (CustomArray array : customArrays) {
-            if (specifyArrayByAverage.specify(array)) {
-                results.add(array);
-            }
-        }
+        List<CustomArray> results = arrayRepository.query(specifyArrayByAverage);
         int expectedSize = 1;
         assertEquals(expectedSize, results.size());
         for (CustomArray array : results) {
-            assertArrayEquals(array.getArray(), customArray2.getArray());
+            assertArrayEquals(customArray2.getArray(), array.getArray());
         }
-
-    }
-    @AfterEach
-    void clearResults() {
-        results.clear();
     }
 }

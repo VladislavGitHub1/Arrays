@@ -33,3 +33,38 @@
 2023-05-22 22:42:26,096 INFO c.c.a.m.Main [main] {1=ArrayStatistics{min=1, max=554, sum=1072.0, averageValue=178.66667, negativeValues=0, positiveValues=6, zeroValues=0}, 2=ArrayStatistics{min=4, max=95, sum=286.0, averageValue=47.666668, negativeValues=0, positiveValues=6, zeroValues=0}, 3=ArrayStatistics{min=12, max=898, sum=1356.0, averageValue=193.71428, negativeValues=0, positiveValues=7, zeroValues=0}}
 2023-05-22 22:42:26,098 INFO c.c.a.m.Main [main] [CustomArray{arrayId=1, array=[1, 5, 12, 456, 44, 554]}]
 2023-05-22 22:42:26,099 INFO c.c.a.m.Main [main] [CustomArray{arrayId=2, array=[45, 8, 78, 56, 95, 4]}]
+2023-05-23 17:53:38,363 INFO c.c.a.m.Main [main] [CustomArray{arrayId=1, array=[1, 5, 12, 456, 44, 554]}, CustomArray{arrayId=2, array=[45, 8, 78, 56, 95, 4]}, CustomArray{arrayId=3, array=[44, 78, 12, 65, 898, 45, 214]}]
+2023-05-23 17:53:38,402 INFO c.c.a.m.Main [main] {1=ArrayStatistics{min=1, max=554, sum=1072.0, averageValue=178.66667, negativeValues=0, positiveValues=6, zeroValues=0}, 2=ArrayStatistics{min=4, max=95, sum=286.0, averageValue=47.666668, negativeValues=0, positiveValues=6, zeroValues=0}, 3=ArrayStatistics{min=12, max=898, sum=1356.0, averageValue=193.71428, negativeValues=0, positiveValues=7, zeroValues=0}}
+2023-05-23 17:53:38,406 INFO c.c.a.m.Main [main] [CustomArray{arrayId=1, array=[1, 5, 12, 456, 44, 554]}]
+2023-05-23 17:53:38,408 INFO c.c.a.m.Main [main] [CustomArray{arrayId=2, array=[45, 8, 78, 56, 95, 4]}]
+2023-05-23 18:03:29,166 WARN c.c.a.r.i.ArrayReaderImpl [main] File non-existent is not exists
+2023-05-23 18:03:51,708 INFO c.c.a.m.Main [main] [CustomArray{arrayId=1, array=[1, 5, 12, 456, 44, 554]}, CustomArray{arrayId=2, array=[45, 8, 78, 56, 95, 4]}, CustomArray{arrayId=3, array=[44, 78, 12, 65, 898, 45, 214]}]
+2023-05-23 18:03:51,735 INFO c.c.a.m.Main [main] {1=ArrayStatistics{min=1, max=554, sum=1072.0, averageValue=178.66667, negativeValues=0, positiveValues=6, zeroValues=0}, 2=ArrayStatistics{min=4, max=95, sum=286.0, averageValue=47.666668, negativeValues=0, positiveValues=6, zeroValues=0}, 3=ArrayStatistics{min=12, max=898, sum=1356.0, averageValue=193.71428, negativeValues=0, positiveValues=7, zeroValues=0}}
+2023-05-23 18:03:51,738 INFO c.c.a.m.Main [main] [CustomArray{arrayId=1, array=[1, 5, 12, 456, 44, 554]}]
+2023-05-23 18:03:51,740 INFO c.c.a.m.Main [main] [CustomArray{arrayId=2, array=[45, 8, 78, 56, 95, 4]}]
+2023-05-23 18:05:04,220 WARN c.c.a.r.i.ArrayReaderImpl [main] File non-existent is not exists
+2023-05-23 18:05:10,933 WARN c.c.a.r.i.ArrayReaderImpl [main] File non-existent is not exists
+2023-05-23 18:05:40,307 WARN c.c.a.r.i.ArrayReaderImpl [main] File non-existent is not exists
+2023-05-23 18:06:13,912 INFO c.c.a.m.Main [main] [CustomArray{arrayId=1, array=[1, 5, 12, 456, 44, 554]}, CustomArray{arrayId=2, array=[45, 8, 78, 56, 95, 4]}, CustomArray{arrayId=3, array=[44, 78, 12, 65, 898, 45, 214]}]
+2023-05-23 18:06:13,941 INFO c.c.a.m.Main [main] {1=ArrayStatistics{min=1, max=554, sum=1072.0, averageValue=178.66667, negativeValues=0, positiveValues=6, zeroValues=0}, 2=ArrayStatistics{min=4, max=95, sum=286.0, averageValue=47.666668, negativeValues=0, positiveValues=6, zeroValues=0}, 3=ArrayStatistics{min=12, max=898, sum=1356.0, averageValue=193.71428, negativeValues=0, positiveValues=7, zeroValues=0}}
+2023-05-23 18:06:13,943 INFO c.c.a.m.Main [main] [CustomArray{arrayId=1, array=[1, 5, 12, 456, 44, 554]}]
+2023-05-23 18:06:13,945 INFO c.c.a.m.Main [main] [CustomArray{arrayId=2, array=[45, 8, 78, 56, 95, 4]}]
+2023-05-23 18:06:41,513 WARN c.c.a.r.i.ArrayReaderImpl [main] File non-existent is not exists
+2023-05-23 18:06:58,029 INFO c.c.a.m.Main [main] [CustomArray{arrayId=1, array=[1, 5, 12, 456, 44, 554]}, CustomArray{arrayId=2, array=[45, 8, 78, 56, 95, 4]}, CustomArray{arrayId=3, array=[44, 78, 12, 65, 898, 45, 214]}]
+2023-05-23 18:06:58,054 INFO c.c.a.m.Main [main] {1=ArrayStatistics{min=1, max=554, sum=1072.0, averageValue=178.66667, negativeValues=0, positiveValues=6, zeroValues=0}, 2=ArrayStatistics{min=4, max=95, sum=286.0, averageValue=47.666668, negativeValues=0, positiveValues=6, zeroValues=0}, 3=ArrayStatistics{min=12, max=898, sum=1356.0, averageValue=193.71428, negativeValues=0, positiveValues=7, zeroValues=0}}
+2023-05-23 18:06:58,056 INFO c.c.a.m.Main [main] [CustomArray{arrayId=1, array=[1, 5, 12, 456, 44, 554]}]
+2023-05-23 18:06:58,058 INFO c.c.a.m.Main [main] [CustomArray{arrayId=2, array=[45, 8, 78, 56, 95, 4]}]
+2023-05-23 18:07:17,718 WARN c.c.a.r.i.ArrayReaderImpl [main] File non-existent is not exists
+2023-05-23 18:07:44,564 WARN c.c.a.r.i.ArrayReaderImpl [main] File non-existent is not exists
+2023-05-23 18:09:44,910 INFO c.c.a.m.Main [main] [CustomArray{arrayId=1, array=[1, 5, 12, 456, 44, 554]}, CustomArray{arrayId=2, array=[45, 8, 78, 56, 95, 4]}, CustomArray{arrayId=3, array=[44, 78, 12, 65, 898, 45, 214]}]
+2023-05-23 18:09:44,919 INFO c.c.a.m.Main [main] {1=ArrayStatistics{min=1, max=554, sum=1072.0, averageValue=178.66667, negativeValues=0, positiveValues=6, zeroValues=0}, 2=ArrayStatistics{min=4, max=95, sum=286.0, averageValue=47.666668, negativeValues=0, positiveValues=6, zeroValues=0}, 3=ArrayStatistics{min=12, max=898, sum=1356.0, averageValue=193.71428, negativeValues=0, positiveValues=7, zeroValues=0}}
+2023-05-23 18:09:44,922 INFO c.c.a.m.Main [main] [CustomArray{arrayId=1, array=[1, 5, 12, 456, 44, 554]}]
+2023-05-23 18:09:44,924 INFO c.c.a.m.Main [main] [CustomArray{arrayId=2, array=[45, 8, 78, 56, 95, 4]}]
+2023-05-23 18:17:33,701 INFO c.c.a.m.Main [main] [CustomArray{arrayId=1, array=[1, 5, 12, 456, 44, 554]}, CustomArray{arrayId=2, array=[45, 8, 78, 56, 95, 4]}, CustomArray{arrayId=3, array=[44, 78, 12, 65, 898, 45, 214]}]
+2023-05-23 18:17:33,709 INFO c.c.a.m.Main [main] {1=ArrayStatistics{min=1, max=554, sum=1072.0, averageValue=178.66667, negativeValues=0, positiveValues=6, zeroValues=0}, 2=ArrayStatistics{min=4, max=95, sum=286.0, averageValue=47.666668, negativeValues=0, positiveValues=6, zeroValues=0}, 3=ArrayStatistics{min=12, max=898, sum=1356.0, averageValue=193.71428, negativeValues=0, positiveValues=7, zeroValues=0}}
+2023-05-23 18:17:33,712 INFO c.c.a.m.Main [main] [CustomArray{arrayId=1, array=[1, 5, 12, 456, 44, 554]}]
+2023-05-23 18:17:33,714 INFO c.c.a.m.Main [main] [CustomArray{arrayId=2, array=[45, 8, 78, 56, 95, 4]}]
+2023-05-23 18:20:59,079 INFO c.c.a.m.Main [main] [CustomArray{arrayId=1, array=[1, 5, 12, 456, 44, 554]}, CustomArray{arrayId=2, array=[45, 8, 78, 56, 95, 4]}, CustomArray{arrayId=3, array=[44, 78, 12, 65, 898, 45, 214]}, CustomArray{arrayId=4, array=[45, 7, 56, 89, 55, 2, 12]}, CustomArray{arrayId=5, array=[4, 5, 8, 9, 6, 7, 5, 65, 78, 55, 56, 456]}]
+2023-05-23 18:20:59,091 INFO c.c.a.m.Main [main] {1=ArrayStatistics{min=1, max=554, sum=1072.0, averageValue=178.66667, negativeValues=0, positiveValues=6, zeroValues=0}, 2=ArrayStatistics{min=4, max=95, sum=286.0, averageValue=47.666668, negativeValues=0, positiveValues=6, zeroValues=0}, 3=ArrayStatistics{min=12, max=898, sum=1356.0, averageValue=193.71428, negativeValues=0, positiveValues=7, zeroValues=0}, 4=ArrayStatistics{min=2, max=89, sum=266.0, averageValue=38.0, negativeValues=0, positiveValues=7, zeroValues=0}, 5=ArrayStatistics{min=4, max=456, sum=754.0, averageValue=62.833332, negativeValues=0, positiveValues=12, zeroValues=0}}
+2023-05-23 18:20:59,095 INFO c.c.a.m.Main [main] [CustomArray{arrayId=1, array=[1, 5, 12, 456, 44, 554]}]
+2023-05-23 18:20:59,097 INFO c.c.a.m.Main [main] [CustomArray{arrayId=2, array=[45, 8, 78, 56, 95, 4]}]
